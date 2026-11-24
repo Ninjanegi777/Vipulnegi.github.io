@@ -59,7 +59,7 @@ site (October 2026) and rewritten lightly for clarity. Plain HTML + one CSS file
 
 - [x] Images self-hosted in `assets/img/` (file names = original Framer ids). Pages in `work/` use
       `../assets/img/...`. Never link to `framerusercontent.com` again.
-- [ ] Optimise images: many are ~1 MB JPG/PNG straight from Framer (~30 MB total). Converting to
+- [x] Optimise images (Nov 2026): resized to ≤1600px and re-compressed, same file names (~31 MB → ~10 MB). Further option: convert to
       WebP at ≤1600px would cut that a lot. Keep file names stable or update every `src`.
 - [ ] Make `og:image` URLs absolute once a domain exists (social previews need full URLs).
 - [ ] Write the full COX SMB case study (structure: copy `work/lisha.html`).
