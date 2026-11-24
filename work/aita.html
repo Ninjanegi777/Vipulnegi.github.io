@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AITA case study — Vipul Negi</title>
+  <meta name="description" content="How Vipul Negi designed AITA, an AI travel planner that builds personalised itineraries with real-time updates and backup plans.">
+  <meta property="og:image" content="../assets/img/hxRuOxoeQGVD5paWBdSOhYWdsX8.jpg">
+  <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="../assets/fonts/bungee-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body data-root="../" data-page="work/aita.html">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header id="site-header"></header>
+
+  <main id="main">
+    <section class="cs-hero">
+      <div class="container">
+        <a class="back-link" href="../index.html#work">← All work</a>
+        <span class="eyebrow">Case study · AI travel</span>
+        <h1>AITA</h1>
+        <p class="lead">An AI travel planner that builds end-to-end personalised itineraries, with real-time updates, backup plans and recommendations based on each traveller’s preferences.</p>
+        <dl class="cs-meta">
+          <div><dt>Client</dt><dd>Travel AI Solutions</dd></div>
+          <div><dt>Duration</dt><dd>6 months</dd></div>
+          <div><dt>Role</dt><dd>UX &amp; product design, research</dd></div>
+          <div><dt>Focus</dt><dd>Real-time travel planning</dd></div>
+        </dl>
+        <figure class="cs-cover">
+          <img src="../assets/img/hxRuOxoeQGVD5paWBdSOhYWdsX8.jpg" alt="AITA brand cover">
+        </figure>
+      </div>
+    </section>
+
+    <div class="container cs-layout">
+      <aside class="toc" aria-label="On this page">
+        <p>On this page</p>
+        <ol>
+          <li><a href="#what">What is AITA</a></li>
+          <li><a href="#why">Why it’s needed</a></li>
+          <li><a href="#problem">Problem</a></li>
+          <li><a href="#validation">Validation</a></li>
+          <li><a href="#model">Defining the model</a></li>
+          <li><a href="#testing">Prototype testing</a></li>
+          <li><a href="#process">Behind the scenes</a></li>
+        </ol>
+      </aside>
+
+      <article>
+        <section class="cs-section" id="what">
+          <span class="eyebrow">What is AITA?</span>
+          <h2>Hundreds of hours of planning, in one place</h2>
+          <div class="prose">
+            <p>AITA provides end-to-end personalised itineraries with real-time updates, backup plans and AI-powered recommendations based on user preferences.</p>
+            <p>Travellers spend hundreds of hours searching different websites for flights, accommodation and activities, and the trip often still goes wrong when plans fail.</p>
+          </div>
+          <div class="cards">
+            <div class="card"><span class="num">1B+</span><h4>International tourists</h4><p>travel every year.</p></div>
+            <div class="card"><span class="num">$1,036B</span><h4>Spent on travel</h4><p>globally, a massive need for intelligent travel planning.</p></div>
+            <div class="card"><span class="num">80%</span><h4>Self-made itineraries</h4><p>of people interviewed build their own plans because they distrust existing apps.</p></div>
+          </div>
+        </section>
+
+        <section class="cs-section" id="why">
+          <span class="eyebrow">Why such a solution is necessary</span>
+          <h2>Before asking “why”, look back</h2>
+          <p class="callout">“Wait! Before we ask ‘why?’, we first need to dive back into the past and see how things worked back then.”</p>
+          <div class="prose">
+            <p>Travel planning evolved from cave paintings and survival instincts to GPS apps and satellite imagery. Hsüan-tsang’s 7th-century journey to India relied on determination and basic maps; today’s travel influencers share their journeys in real time. Despite all this technology, the human drive to explore and guide others hasn’t changed.</p>
+            <ul>
+              <li>1.36 billion tourists a year spend hundreds of hours researching across fragmented travel platforms.</li>
+              <li>Too much information from blogs, reviews and booking sites makes decisions harder, not easier.</li>
+              <li>Travellers juggle multiple apps and often fall back on Word documents because no single platform does it all.</li>
+              <li>Western travellers research heavily for Asia and Africa; Asian travellers prefer packages for Europe and America.</li>
+              <li>80% of users build their own itineraries, seeing existing apps as inefficient and impersonal.</li>
+            </ul>
+          </div>
+          <div class="gallery">
+            <figure><img src="../assets/img/M9i006DmEsSjWsLBVGNO5OtVmlI.jpg" alt="How travel planning evolved over time" loading="lazy"></figure>
+            <figure><img src="../assets/img/DEfmj9KnkPPBcUHBaVyGYtS9Foc.jpg" alt="Where AITA comes in" loading="lazy"></figure>
+          </div>
+        </section>
+
+        <section class="cs-section" id="problem">
+          <span class="eyebrow">Problem</span>
+          <h2>Plans break, and apps don’t adapt</h2>
+          <p class="callout">“Current travel planning applications fail to provide comprehensive, personalised itineraries that can adapt to real-time changes, leaving travellers frustrated when their carefully planned trips encounter unexpected disruptions.”</p>
+          <div class="gallery gallery--1">
+            <figure><img src="../assets/img/Gg3tEw4FYomSLFL8aIMK68T04.jpg" alt="Challenges faced by travellers" loading="lazy"></figure>
+            <figure><img src="../assets/img/nUl71f67UWPZQZDN4ecQlv6nGvA.jpg" alt="What AITA brings to the table" loading="lazy"><figcaption>What AITA brings to the table</figcaption></figure>
+          </div>
+        </section>
+
+        <section class="cs-section" id="validation">
+          <span class="eyebrow">Validation</span>
+          <h2>Talking to travellers first</h2>
+          <div class="prose">
+            <p>To confirm the need, I interviewed people from diverse backgrounds with a set of basic but crucial questions. Their answers shaped the personas directly.</p>
+            <ul>
+              <li>How many times a year do you travel, domestically or abroad, for holidays?</li>
+              <li>How do you plan: a travel agency, a self-made itinerary, a self-made itinerary plus a tour guide, or smart itinerary apps?</li>
+              <li>Why choose a self-made itinerary or travel agent over a software-generated one?</li>
+              <li>How do you make your itinerary?</li>
+              <li>What are these apps missing? What would you add?</li>
+            </ul>
+          </div>
+          <h3>What I learned</h3>
+          <div class="cards">
+            <div class="card"><h4>One-stop shop</h4><p>Users want the whole travel experience in one place, with detailed plans rather than overviews.</p></div>
+            <div class="card"><h4>Real-time matters</h4><p>Current apps fail when plans change. Weather, local events and emergency or health updates are highly wanted.</p></div>
+            <div class="card"><h4>Local friction</h4><p>Language barriers, local transport, food preferences and dietary needs are poorly handled today.</p></div>
+            <div class="card"><h4>Trust is low</h4><p>Past disappointments mean people read many blogs and reviews; social media heavily shapes decisions.</p></div>
+            <div class="card"><h4>Groups &amp; budgets</h4><p>Group travellers need collaborative planning, and budget management is a primary concern.</p></div>
+            <div class="card"><h4>Cultural needs</h4><p>Religious and cultural travel has its own specific requirements.</p></div>
+          </div>
+          <p class="callout">These insights grouped travel into three categories: leisure trips, work travel and religious or cultural journeys, which became our personas.</p>
+          <div class="gallery">
+            <figure><img src="../assets/img/MlLcyLzG9vmn7CAhGyzQJAxwnzU.jpg" alt="Persona card" loading="lazy"></figure>
+            <figure><img src="../assets/img/rm3XHUCwzI09U1zjsEWqy12OZI.jpg" alt="Persona card" loading="lazy"></figure>
+            <figure><img src="../assets/img/C9nVUbz4wbIZWAcWBMpcqAo27o.jpg" alt="Persona card" loading="lazy"></figure>
+            <figure><img src="../assets/img/9ksHyyFsqM7FN2osv70YGal8.jpg" alt="Persona card" loading="lazy"></figure>
+            <figure><img src="../assets/img/inpfy8xg28DaQdbMfzH2jxfeBw.jpg" alt="Persona card" loading="lazy"></figure>
+            <figure><img src="../assets/img/JX9fQxNirxlRLd0WNBuXnwjMiTs.jpg" alt="Persona card" loading="lazy"></figure>
+            <figure><img src="../assets/img/JjVyEyNvZft3b6aBjZ2vh6yok.jpg" alt="Persona card" loading="lazy"></figure>
+          </div>
+        </section>
+
+        <section class="cs-section" id="model">
+          <span class="eyebrow">Defining the model</span>
+          <h2>BJ Fogg’s behaviour model</h2>
+          <div class="prose">
+            <p>To make sure each traveller group would actually engage with AITA, I used the BJ Fogg Behaviour Model to look at what drives behaviour: motivation, ability and prompts. With the model and key insights in place, I built the first prototype for real-world testing.</p>
+          </div>
+          <div class="gallery gallery--1">
+            <figure><img src="../assets/img/eIn0UbfZr9YGrfZI1l43vr5Kow.jpg" alt="BJ Fogg behaviour model applied to AITA" loading="lazy"></figure>
+          </div>
+        </section>
+
+        <section class="cs-section" id="testing">
+          <span class="eyebrow">Prototype testing</span>
+          <h2>Feedback that changed the product</h2>
+          <div class="prose">
+            <p>The prototype was interactive screens only, with no data capture or real-time updates. Even so, the feedback went far beyond expectations and surfaced features we’d missed despite extensive research and brainstorming.</p>
+          </div>
+          <div class="gallery gallery--1">
+            <figure><img src="../assets/img/lOWtAwoRAdDQNRO3khzn1RRh4o.jpg" alt="Prototype screens used in testing" loading="lazy"></figure>
+          </div>
+          <h3>Key feedback</h3>
+          <div class="cards">
+            <div class="card"><p class="persona-quote">“Should include a trying mode, as I don’t want to disclose my information and identity.”</p></div>
+            <div class="card"><p class="persona-quote">“There should be an alert option for emergency or regular alerts.”</p></div>
+            <div class="card"><p class="persona-quote">“A mood button that randomly generates an itinerary based on my mood.”</p></div>
+            <div class="card"><p class="persona-quote">“Language is one of the main problems in travelling. Can you do something about that?”</p></div>
+            <div class="card"><p class="persona-quote">“I have claustrophobia. Can we control crowd size when choosing events?”</p></div>
+            <div class="card"><p class="persona-quote">“What to carry and what not to: can the app tell me?”</p></div>
+            <div class="card"><p class="persona-quote">“More options in the food section, as some of us are vegan.”</p></div>
+            <div class="card"><p class="persona-quote">“Can I talk to it like Google Assistant or Alexa, so I can just ask what’s next?”</p></div>
+            <div class="card"><p class="persona-quote">“Can we make multiple itineraries for different dates?”</p></div>
+            <div class="card"><p class="persona-quote">“I have medical conditions; reminders in the app would be great.”</p></div>
+            <div class="card"><p class="persona-quote">“Separate personal and business profiles I can switch between.”</p></div>
+            <div class="card"><p class="persona-quote">“The events section should let me choose what time I want to go out.”</p></div>
+          </div>
+        </section>
+
+        <section class="cs-section" id="process">
+          <span class="eyebrow">Behind the scenes</span>
+          <h2>A mind full of ideas</h2>
+          <p class="callout">“Whiteboards, sticky notes, papers, you name it. My walls were filled with ideas, but I still felt there could be much more…”</p>
+          <div class="gallery">
+            <figure><img src="../assets/img/3fHYWgZvc1cVwf6azVSmxOmEUSU.jpg" alt="Brainstorming board" loading="lazy"><figcaption>Brainstorming board</figcaption></figure>
+            <figure><img src="../assets/img/wlnIu8nvzcIZKg1MsdYOchy9A.jpg" alt="User flow mapping on paper" loading="lazy"><figcaption>User flow mapping</figcaption></figure>
+            <figure><img src="../assets/img/il1TbF9xz9mczihR5Qy2uP2vpQ.jpg" alt="Prototype flow sketches" loading="lazy"><figcaption>Prototype flow</figcaption></figure>
+            <figure><img src="../assets/img/vWpaD1Z9VikmDY9wox5C55vhOxc.jpg" alt="Sticky-note mind map" loading="lazy"></figure>
+          </div>
+        </section>
+
+        <a class="next-project" href="cox-smb.html">
+          <span class="eyebrow">Next case study</span>
+          <h2>COX SMB, smart building controls →</h2>
+        </a>
+      </article>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
